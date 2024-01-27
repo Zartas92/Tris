@@ -1,0 +1,42 @@
+<html>
+<title>
+    Gioco del Tris
+</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 id="titolo">
+        Gioco del Tris
+    </h1>
+    <p id="turnoGiocatore">
+        Turno del GIOCATORE 1
+    </p>
+
+    <p id="alert">
+        Scegli un'altra casella, babbo di minchia!<br>
+        <button onclick="eliminaAlert()">E che DIAMINE!</button>
+    </p>
+
+    <div id="contenitoreTris">
+        <button onclick="clickCasella(this)" class="caselle hover" id="1"></button>
+        <button onclick="clickCasella(this)" class="caselle hover" id="2"></button>
+        <button onclick="clickCasella(this)" class="caselle hover" id="3"></button>
+        <button onclick="clickCasella(this)" class="caselle hover" id="4"></button>
+        <button onclick="clickCasella(this)" class="caselle hover" id="5"></button>
+        <button onclick="clickCasella(this)" class="caselle hover" id="6"></button>
+        <button onclick="clickCasella(this)" class="caselle hover" id="7"></button>
+        <button onclick="clickCasella(this)" class="caselle hover" id="8"></button>
+        <button onclick="clickCasella(this)" class="caselle hover" id="9"></button>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+        <button onclick="reset()" id="reset">Reset</button>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

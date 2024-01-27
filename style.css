@@ -1,0 +1,80 @@
+body {
+    margin: 3% 8% 8% 8%;
+    background-color: aquamarine;
+
+}
+
+#titolo {
+    text-align: center;
+}
+
+#turnoGiocatore {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+#contenitoreTris {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: burlywood;
+    display: grid;
+    justify-content: stretch;
+    align-content: stretch;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* border: black 3px solid; */
+    z-index: 1;
+}
+
+.caselle {
+    text-align: center;
+    /* border: black 3px solid; */
+    background-color: burlywood;
+    font-size: 800%;
+    margin: 3px;
+}
+
+
+.hover:hover {
+    cursor: pointer;
+    background-color: coral;
+}
+
+#alert {
+    display: none;
+    position: absolute;
+    left: 34%;
+    top: 42%;
+    z-index: 1;
+    background-color: gray;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    border: 2px black;
+    padding: 3px;
+    font-size: xx-large;
+
+}
+
+#alert>button:hover {
+    background-color: blue;
+}
+
+#reset {
+    background-color: gray;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: fit-content;
+    border: 2px black;
+    padding: 3px;
+    font-size: x-large;
+    margin-top: 5px;
+}
+
+#reset:hover {
+    background-color: blue;
+    cursor: pointer;
+}
